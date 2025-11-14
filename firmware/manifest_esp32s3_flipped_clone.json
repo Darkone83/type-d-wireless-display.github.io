@@ -1,0 +1,21 @@
+{
+  "name": "Type D Wireless Display Firmware",
+  "version": "10/23/2025",
+  "images": [
+    {
+      "src": "images/dc.png",
+      "label": "Darkone Customs"
+    }
+  ],
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "firmware_clone_flipped_screen.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
