@@ -340,6 +340,7 @@
                 <option value="esp32s3_flipped">ESP32-S3 – Type-D Wireless Display (flipped)</option>
 				<option value="esp32s3_clone">ESP32-S3 Clone - Type-D Wireless Display</option>
 				<option value="esp32s3_flipped_clone">ESP32-S3 Clone - Type-D Wireless Display (flipped)</option>
+				<option value="esp32s3_super_mini">ESP32-S3 Super Mini - Type-D Wireless Display</option>
               </select>
             </div>
 
@@ -451,6 +452,9 @@
 		  case "esp32s3_flipped_clone":
 		    installer.setAttribute("manifest", "firmware/manifest_esp32s3_clone_flipped.json");
 		    break;
+		  case "esp32s3_super_mini":
+		    installer.setAttribute("manifest", "firmware/manifest_sep32s3_super_mini.json");
+			break;
         }
       }
 
